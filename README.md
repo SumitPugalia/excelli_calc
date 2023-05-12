@@ -11,8 +11,6 @@ docker run --rm \
 
 # Steps
 
-- mix ecto.create
-- mix ecto.migrate
 - iex -S mix phx.server
   - iex(1)> ExcelliCalc.Migration.run
 
